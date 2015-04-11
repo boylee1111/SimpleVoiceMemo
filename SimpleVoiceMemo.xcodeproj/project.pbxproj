@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1277986AB43A6D612DB653A91F64D57A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE6E172A47DE33E27422F1AD1AEC418 /* Images.xcassets */; };
+		2E3CC33DD981C8D3DB3A6280EFE6801F /* RecordFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B60B5601911A09424470A483BEED9D /* RecordFileHelper.m */; };
+		383F0249B90CCF7ACDC73D27FFC53A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3792D235C1753BB8E597F3F1A2412EB3 /* Main.storyboard */; };
+		3B07A3BCD840E5343E1AC1062C18CF6D /* UMUUploaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 016807D0BDBB440EDC602F2C33AD4CBC /* UMUUploaderManager.m */; };
+		5B73AEE08256AB90E617860313E79E0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5270FA405087BCD31C0335B299D3E54 /* AppDelegate.m */; };
+		639CBF31A49696BAA03B36105141FF0A /* SimpleVoiceMemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E5801A8A90644605B4E53553EA0CC /* SimpleVoiceMemoTests.m */; };
+		77ABB6B27176E59A0B4FF05856ECBFE1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6922C38D70B5C9C29AD86B522614823F /* libPods.a */; };
+		7B95C942229F6E9A28A709A37C1FD2AE /* NSString+Base64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1D2C7CBE9EB6EB0AF5B2E3DCE8BCC /* NSString+Base64Encode.m */; };
+		951647F0DE96F5DB54FCD8A5BBA8AE8B /* AllRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DAB2C6FB0F25A45AAD3C43D27E72B /* AllRecordsViewController.m */; };
+		96F6EC5D816ECE968C702DD999C8DAC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A947575B7EDBF5EF5A785BFA2EDF3CC8 /* LaunchScreen.xib */; };
+		A0F2F882785F85BAFD98A1539E0493EE /* UploadingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B0370763161E2CFDF971C9F4028C74 /* UploadingManager.m */; };
+		BD4EF17AB36422C37D6B930D775DF046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA48611BC796E3E05B0D9363EC7E9F /* main.m */; };
+		C08FEC2D4755F68FDAB263204BE21C51 /* NSData+MD5Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4960B2693CFC62D7A2210F25967D6 /* NSData+MD5Digest.m */; };
+		D045AD5281269E4B967727719633C3B7 /* VoiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 9803ADA926B61674FF9C9CDF5709CC4E /* VoiceRecord.m */; };
+		D5002DC5E6580DEE210AE71B635B953B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C002F8AB751E402F6982F3216E861608 /* AVFoundation.framework */; };
+		D598917215CCAF2703BCF64DD0A61052 /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 7534D48E53244A103316319912CCAB8F /* NSString+NSHash.m */; };
+		F87FC18AE8113B0C781140104C07808E /* UMUUploaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 82691736E20381982C9E50FF9157F759 /* UMUUploaderOperation.m */; };
+		FEF735B23B1F2DC44738A47157A161A7 /* RecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD911FB21CBC0C218281B908439F2C /* RecordingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		851B78EC53D53B73D23FE9E69B9EA4FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DB7B6E6451672A57D747906AE471196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBE014811F4B01250DDD31BED6B0372D;
+			remoteInfo = SimpleVoiceMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016807D0BDBB440EDC602F2C33AD4CBC /* UMUUploaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMUUploaderManager.m; sourceTree = "<group>"; };
+		100B3E5D23BDE1BA2D34BC15DF1707F4 /* UMUUploaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUUploaderOperation.h; sourceTree = "<group>"; };
+		13D701B91F767D0996CD92B439E1FB44 /* UploadingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadingManager.h; sourceTree = "<group>"; };
+		1411D44626377408524B2F201B1220FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E555E20D89D198478CE7DB100B84593 /* UMUUploaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUUploaderManager.h; sourceTree = "<group>"; };
+		294C4E877F89A7C99B1621702B32DB6C /* SimpleVoiceMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVoiceMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BAD911FB21CBC0C218281B908439F2C /* RecordingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingViewController.m; sourceTree = "<group>"; };
+		34B0370763161E2CFDF971C9F4028C74 /* UploadingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadingManager.m; sourceTree = "<group>"; };
+		37B60B5601911A09424470A483BEED9D /* RecordFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordFileHelper.m; sourceTree = "<group>"; };
+		4272DFE38844C71C5532957377E80C36 /* RecordingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingViewController.h; sourceTree = "<group>"; };
+		44E5FEB34715A6FD47B8998B71811CCB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4E5052B42847E5E702BF50D9ACEAD0D1 /* RecordFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordFileHelper.h; sourceTree = "<group>"; };
+		5AE6E172A47DE33E27422F1AD1AEC418 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6922C38D70B5C9C29AD86B522614823F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A8DE3781596FF995601CAEC0BE653A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73C3FB6C0389554B1358E86B16F0DCEC /* VoiceRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecord.h; sourceTree = "<group>"; };
+		7534D48E53244A103316319912CCAB8F /* NSString+NSHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHash.m"; sourceTree = "<group>"; };
+		82691736E20381982C9E50FF9157F759 /* UMUUploaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMUUploaderOperation.m; sourceTree = "<group>"; };
+		84A4960B2693CFC62D7A2210F25967D6 /* NSData+MD5Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5Digest.m"; sourceTree = "<group>"; };
+		8BEA48611BC796E3E05B0D9363EC7E9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FD6576C3BE6A1AAA132ABF7A4F30E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		911F6C36F2F51C44259C6A2B075EFB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B824F897D876E6FDD0FC61AAAD561F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9803ADA926B61674FF9C9CDF5709CC4E /* VoiceRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecord.m; sourceTree = "<group>"; };
+		B1A6D385618A10C26C233F1DE97AB7A9 /* SimpleVoiceMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleVoiceMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C002F8AB751E402F6982F3216E861608 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C5270FA405087BCD31C0335B299D3E54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C83E5801A8A90644605B4E53553EA0CC /* SimpleVoiceMemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleVoiceMemoTests.m; sourceTree = "<group>"; };
+		CAB3A0926E1DC22D195B0CA69D162E0E /* NSString+Base64Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64Encode.h"; sourceTree = "<group>"; };
+		CCB1D2C7CBE9EB6EB0AF5B2E3DCE8BCC /* NSString+Base64Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64Encode.m"; sourceTree = "<group>"; };
+		DB1B14DF1718349D9BBB4E9FB20628E8 /* NSString+NSHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHash.h"; sourceTree = "<group>"; };
+		E11DAB2C6FB0F25A45AAD3C43D27E72B /* AllRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllRecordsViewController.m; sourceTree = "<group>"; };
+		F19E04C2923AA22C3A15596D1426A0DB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FA9A5C0A1374286469A8CAE640DD8D5A /* NSData+MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5Digest.h"; sourceTree = "<group>"; };
+		FDF8D826DFAFA3230278CF43E67E980C /* AllRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllRecordsViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89856DCC689B6E6E1BE3CEDB4D4902D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5002DC5E6580DEE210AE71B635B953B /* AVFoundation.framework in Frameworks */,
+				77ABB6B27176E59A0B4FF05856ECBFE1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFF26D06DBBE2846909B2B044FC9C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5177F861C2D1D39CBD7A64433615BE5 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				F1CE8E8CBE56EAEE170EC9AA7E7A75E0 /* UpYunMultipartUploadSDK */,
+			);
+			name = Vendors;
+			path = SimpleVoiceMemo;
+			sourceTree = "<group>";
+		};
+		F1CE8E8CBE56EAEE170EC9AA7E7A75E0 /* UpYunMultipartUploadSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1AB297AF51FEB44BB7C3BA8E8A03B2EA /* UpYunMultipartUploadSDK */,
+			);
+			name = UpYunMultipartUploadSDK;
+			sourceTree = "<group>";
+		};
+		1AB297AF51FEB44BB7C3BA8E8A03B2EA /* UpYunMultipartUploadSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8C30802BF1933F74347ED52D2DC9ADFE /* Classes */,
+			);
+			name = UpYunMultipartUploadSDK;
+			path = Vendors/UpYunMultipartUploadSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		8C30802BF1933F74347ED52D2DC9ADFE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA9A5C0A1374286469A8CAE640DD8D5A /* NSData+MD5Digest.h */,
+				84A4960B2693CFC62D7A2210F25967D6 /* NSData+MD5Digest.m */,
+				CAB3A0926E1DC22D195B0CA69D162E0E /* NSString+Base64Encode.h */,
+				CCB1D2C7CBE9EB6EB0AF5B2E3DCE8BCC /* NSString+Base64Encode.m */,
+				DB1B14DF1718349D9BBB4E9FB20628E8 /* NSString+NSHash.h */,
+				7534D48E53244A103316319912CCAB8F /* NSString+NSHash.m */,
+				1E555E20D89D198478CE7DB100B84593 /* UMUUploaderManager.h */,
+				016807D0BDBB440EDC602F2C33AD4CBC /* UMUUploaderManager.m */,
+				100B3E5D23BDE1BA2D34BC15DF1707F4 /* UMUUploaderOperation.h */,
+				82691736E20381982C9E50FF9157F759 /* UMUUploaderOperation.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		16D7EB5E6AB39E8331344864AE5FE34F = {
+			isa = PBXGroup;
+			children = (
+				B80D34FB2ED6A6A152B6B7C8316996CF /* Frameworks */,
+				71DF0097314ED26D954999E26C30AF28 /* Pods */,
+				928D55354AB288DEA5D6D555A0CB2A35 /* Products */,
+				A4406E641B7EF1EA43AC9C84759FE40D /* SimpleVoiceMemo */,
+				7FBED68B81F04710C2A58CCFFE228AF1 /* SimpleVoiceMemoTests */,
+				B5177F861C2D1D39CBD7A64433615BE5 /* Vendors */,
+			);
+			sourceTree = "<group>";
+		};
+		928D55354AB288DEA5D6D555A0CB2A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				294C4E877F89A7C99B1621702B32DB6C /* SimpleVoiceMemo.app */,
+				B1A6D385618A10C26C233F1DE97AB7A9 /* SimpleVoiceMemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4406E641B7EF1EA43AC9C84759FE40D /* SimpleVoiceMemo */ = {
+			isa = PBXGroup;
+			children = (
+				D40FDF845B81BA1A01C09935FEF5D25F /* Models */,
+				F29C777E7F46F5271DE4D44E417B0C30 /* Supporting Files */,
+				FDF8D826DFAFA3230278CF43E67E980C /* AllRecordsViewController.h */,
+				E11DAB2C6FB0F25A45AAD3C43D27E72B /* AllRecordsViewController.m */,
+				71A8DE3781596FF995601CAEC0BE653A /* AppDelegate.h */,
+				C5270FA405087BCD31C0335B299D3E54 /* AppDelegate.m */,
+				5AE6E172A47DE33E27422F1AD1AEC418 /* Images.xcassets */,
+				A947575B7EDBF5EF5A785BFA2EDF3CC8 /* LaunchScreen.xib */,
+				3792D235C1753BB8E597F3F1A2412EB3 /* Main.storyboard */,
+				4E5052B42847E5E702BF50D9ACEAD0D1 /* RecordFileHelper.h */,
+				37B60B5601911A09424470A483BEED9D /* RecordFileHelper.m */,
+				4272DFE38844C71C5532957377E80C36 /* RecordingViewController.h */,
+				2BAD911FB21CBC0C218281B908439F2C /* RecordingViewController.m */,
+				13D701B91F767D0996CD92B439E1FB44 /* UploadingManager.h */,
+				34B0370763161E2CFDF971C9F4028C74 /* UploadingManager.m */,
+			);
+			path = SimpleVoiceMemo;
+			sourceTree = "<group>";
+		};
+		F29C777E7F46F5271DE4D44E417B0C30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C002F8AB751E402F6982F3216E861608 /* AVFoundation.framework */,
+				1411D44626377408524B2F201B1220FA /* Info.plist */,
+				8BEA48611BC796E3E05B0D9363EC7E9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FBED68B81F04710C2A58CCFFE228AF1 /* SimpleVoiceMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				488FCBAFA4B186E2B3D8E3EA99079CDB /* Supporting Files */,
+				C83E5801A8A90644605B4E53553EA0CC /* SimpleVoiceMemoTests.m */,
+			);
+			path = SimpleVoiceMemoTests;
+			sourceTree = "<group>";
+		};
+		488FCBAFA4B186E2B3D8E3EA99079CDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				911F6C36F2F51C44259C6A2B075EFB3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D40FDF845B81BA1A01C09935FEF5D25F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73C3FB6C0389554B1358E86B16F0DCEC /* VoiceRecord.h */,
+				9803ADA926B61674FF9C9CDF5709CC4E /* VoiceRecord.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B80D34FB2ED6A6A152B6B7C8316996CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6922C38D70B5C9C29AD86B522614823F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71DF0097314ED26D954999E26C30AF28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F19E04C2923AA22C3A15596D1426A0DB /* Pods.debug.xcconfig */,
+				44E5FEB34715A6FD47B8998B71811CCB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBE014811F4B01250DDD31BED6B0372D /* SimpleVoiceMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF38EA80EB9F19F69B4FF0B3638FEF4A /* Build configuration list for PBXNativeTarget "SimpleVoiceMemo" */;
+			buildPhases = (
+				A8FDB2D3B5C10EDE48A56A6F51E579AB /* Check Pods Manifest.lock */,
+				A0644F8AF1CC06FB8374D342C8649041 /* Sources */,
+				89856DCC689B6E6E1BE3CEDB4D4902D9 /* Frameworks */,
+				3CC372B5F82285B3D3896FDE646DABF5 /* Resources */,
+				1C35FAC26BF14C2F45C740191E59B46D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleVoiceMemo;
+			productName = SimpleVoiceMemo;
+			productReference = 294C4E877F89A7C99B1621702B32DB6C /* SimpleVoiceMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADEC86FF9F3C6159F662D136B6F20CFF /* SimpleVoiceMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F2ACB10AEFFF89AB0209DAE44F8BCC6 /* Build configuration list for PBXNativeTarget "SimpleVoiceMemoTests" */;
+			buildPhases = (
+				28ED6DD281F4A9FCB67B458BFEE7242D /* Sources */,
+				1CFF26D06DBBE2846909B2B044FC9C21 /* Frameworks */,
+				C7359CD2BF6D5D7ABF67697D3B66DDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9D2524425609CC59B772D3BE8864085 /* PBXTargetDependency */,
+			);
+			name = SimpleVoiceMemoTests;
+			productName = SimpleVoiceMemoTests;
+			productReference = B1A6D385618A10C26C233F1DE97AB7A9 /* SimpleVoiceMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DB7B6E6451672A57D747906AE471196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = boyi;
+				TargetAttributes = {
+					DBE014811F4B01250DDD31BED6B0372D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					ADEC86FF9F3C6159F662D136B6F20CFF = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DBE014811F4B01250DDD31BED6B0372D;
+					};
+				};
+			};
+			buildConfigurationList = A545A77838E3E407E6EFE093371450EA /* Build configuration list for PBXProject "SimpleVoiceMemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16D7EB5E6AB39E8331344864AE5FE34F;
+			productRefGroup = 928D55354AB288DEA5D6D555A0CB2A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBE014811F4B01250DDD31BED6B0372D /* SimpleVoiceMemo */,
+				ADEC86FF9F3C6159F662D136B6F20CFF /* SimpleVoiceMemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CC372B5F82285B3D3896FDE646DABF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1277986AB43A6D612DB653A91F64D57A /* Images.xcassets in Resources */,
+				96F6EC5D816ECE968C702DD999C8DAC9 /* LaunchScreen.xib in Resources */,
+				383F0249B90CCF7ACDC73D27FFC53A07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7359CD2BF6D5D7ABF67697D3B66DDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C35FAC26BF14C2F45C740191E59B46D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8FDB2D3B5C10EDE48A56A6F51E579AB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0644F8AF1CC06FB8374D342C8649041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951647F0DE96F5DB54FCD8A5BBA8AE8B /* AllRecordsViewController.m in Sources */,
+				5B73AEE08256AB90E617860313E79E0C /* AppDelegate.m in Sources */,
+				C08FEC2D4755F68FDAB263204BE21C51 /* NSData+MD5Digest.m in Sources */,
+				7B95C942229F6E9A28A709A37C1FD2AE /* NSString+Base64Encode.m in Sources */,
+				D598917215CCAF2703BCF64DD0A61052 /* NSString+NSHash.m in Sources */,
+				2E3CC33DD981C8D3DB3A6280EFE6801F /* RecordFileHelper.m in Sources */,
+				FEF735B23B1F2DC44738A47157A161A7 /* RecordingViewController.m in Sources */,
+				3B07A3BCD840E5343E1AC1062C18CF6D /* UMUUploaderManager.m in Sources */,
+				F87FC18AE8113B0C781140104C07808E /* UMUUploaderOperation.m in Sources */,
+				A0F2F882785F85BAFD98A1539E0493EE /* UploadingManager.m in Sources */,
+				D045AD5281269E4B967727719633C3B7 /* VoiceRecord.m in Sources */,
+				BD4EF17AB36422C37D6B930D775DF046 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28ED6DD281F4A9FCB67B458BFEE7242D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639CBF31A49696BAA03B36105141FF0A /* SimpleVoiceMemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9D2524425609CC59B772D3BE8864085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBE014811F4B01250DDD31BED6B0372D /* SimpleVoiceMemo */;
+			targetProxy = 851B78EC53D53B73D23FE9E69B9EA4FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3792D235C1753BB8E597F3F1A2412EB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B824F897D876E6FDD0FC61AAAD561F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A947575B7EDBF5EF5A785BFA2EDF3CC8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FD6576C3BE6A1AAA132ABF7A4F30E38 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78C8E2DF961AB0727396DBEBC1F55EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5223C7D822DC350E90DD409BA5801CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C487FFAB46A3E73BDDCECAB004385991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19E04C2923AA22C3A15596D1426A0DB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleVoiceMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D66AFDE1E9232D2C5419609D847C0C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E5FEB34715A6FD47B8998B71811CCB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleVoiceMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		469605039E15D4CD6750B1F64AD94F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleVoiceMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleVoiceMemo.app/SimpleVoiceMemo";
+			};
+			name = Debug;
+		};
+		55AE0F22B7DA8401742AF4407808A77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleVoiceMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleVoiceMemo.app/SimpleVoiceMemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A545A77838E3E407E6EFE093371450EA /* Build configuration list for PBXProject "SimpleVoiceMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C8E2DF961AB0727396DBEBC1F55EAE /* Debug */,
+				5223C7D822DC350E90DD409BA5801CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF38EA80EB9F19F69B4FF0B3638FEF4A /* Build configuration list for PBXNativeTarget "SimpleVoiceMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C487FFAB46A3E73BDDCECAB004385991 /* Debug */,
+				D66AFDE1E9232D2C5419609D847C0C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F2ACB10AEFFF89AB0209DAE44F8BCC6 /* Build configuration list for PBXNativeTarget "SimpleVoiceMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469605039E15D4CD6750B1F64AD94F89 /* Debug */,
+				55AE0F22B7DA8401742AF4407808A77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DB7B6E6451672A57D747906AE471196 /* Project object */;
+}

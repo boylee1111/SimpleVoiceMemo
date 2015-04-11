@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LJm-bE-cS6">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Memo-->
+        <scene sceneID="R9x-Fy-pBO">
+            <objects>
+                <viewController id="Sb0-RY-ghb" customClass="RecordingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QX0-EN-JsQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="oSF-2i-Kqm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cod-lQ-6AR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="src-2m-mrC">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="glI-WM-xuX"/>
+                                    <constraint firstAttribute="height" constant="80" id="qKC-Po-91G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Record">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="glI-WM-xuX"/>
+                                        <exclude reference="qKC-Po-91G"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="glI-WM-xuX"/>
+                                        <include reference="qKC-Po-91G"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhh-DV-YjM">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="113" id="WjI-mc-aQk"/>
+                                    <constraint firstAttribute="height" constant="52" id="b7E-Mw-bhA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="WjI-mc-aQk"/>
+                                        <exclude reference="b7E-Mw-bhA"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="WjI-mc-aQk"/>
+                                        <include reference="b7E-Mw-bhA"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="playRecord:" destination="Sb0-RY-ghb" eventType="touchUpInside" id="Ipe-r8-xBO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="src-2m-mrC" firstAttribute="centerX" secondItem="Yhh-DV-YjM" secondAttribute="centerX" id="ST9-0x-Nwe"/>
+                            <constraint firstItem="src-2m-mrC" firstAttribute="top" secondItem="QX0-EN-JsQ" secondAttribute="bottom" constant="138" id="j4J-Lv-gPj"/>
+                            <constraint firstItem="oSF-2i-Kqm" firstAttribute="top" secondItem="Yhh-DV-YjM" secondAttribute="bottom" constant="248" id="j5z-8A-yMA"/>
+                            <constraint firstItem="src-2m-mrC" firstAttribute="centerX" secondItem="cod-lQ-6AR" secondAttribute="centerX" id="jXI-W7-D4j"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="src-2m-mrC"/>
+                                <exclude reference="Yhh-DV-YjM"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="ST9-0x-Nwe"/>
+                                <exclude reference="j4J-Lv-gPj"/>
+                                <exclude reference="jXI-W7-D4j"/>
+                                <exclude reference="j5z-8A-yMA"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="src-2m-mrC"/>
+                                <include reference="Yhh-DV-YjM"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="ST9-0x-Nwe"/>
+                                <include reference="j4J-Lv-gPj"/>
+                                <include reference="jXI-W7-D4j"/>
+                                <include reference="j5z-8A-yMA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Memo" id="YZm-3A-A9r">
+                        <barButtonItem key="rightBarButtonItem" title="All" id="bNA-gl-jdS">
+                            <connections>
+                                <segue destination="Hon-2n-K1a" kind="show" id="vnt-3j-A4I"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="playingButton" destination="Yhh-DV-YjM" id="KPM-8f-glz"/>
+                        <outlet property="recordingButton" destination="src-2m-mrC" id="tpc-DP-YbN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f6O-I0-bpk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-510" y="84"/>
+        </scene>
+        <!--All Records View Controller-->
+        <scene sceneID="ehe-BH-JCT">
+            <objects>
+                <tableViewController id="Hon-2n-K1a" customClass="AllRecordsViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="L0U-ri-oaZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VoiceRecordCellIdentifier" textLabel="fHg-vJ-3vd" imageView="kaO-0r-q5N" style="IBUITableViewCellStyleDefault" id="sU6-x8-aXb">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sU6-x8-aXb" id="mMN-dX-H0i">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fHg-vJ-3vd">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=compact">
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            </variation>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="play" id="kaO-0r-q5N">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="Hon-2n-K1a" id="KR6-Dt-4IA"/>
+                            <outlet property="delegate" destination="Hon-2n-K1a" id="R0g-lm-rnf"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0A1-cT-Ka6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="246" y="84"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tAo-S3-E8a">
+            <objects>
+                <navigationController id="LJm-bE-cS6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JCP-yM-lQh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Sb0-RY-ghb" kind="relationship" relationship="rootViewController" id="I7Y-71-FWf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O84-wW-bda" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1266" y="84"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="play" width="66" height="66"/>
+    </resources>
+</document>
